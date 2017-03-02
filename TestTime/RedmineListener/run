@@ -1,0 +1,7 @@
+<?php
+require_once "RedmineListener.php";
+$url = "http://127.0.0.1/redmine/";
+$login = "MrRobot";
+$password = "12345678";
+$listener = new RedmineListener($url, $login, $password);
+$listener->run(0.3);

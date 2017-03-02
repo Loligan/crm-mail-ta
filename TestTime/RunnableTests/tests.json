@@ -1,0 +1,21 @@
+[
+  {
+    "tag": "00-00",
+    "responsible": "6",
+    "description": "Наличие инпутов и кнопки Login на странице",
+    "isSmoke": true,
+    "dependent": [
+      {
+        "tag": "00-01",
+        "responsible": "6",
+        "description": "Авторизация с стандартным логином и паролем",
+        "isSmoke": true,
+        "dependent": [
+          {
+
+          }
+        ]
+      }
+    ]
+  }
+]

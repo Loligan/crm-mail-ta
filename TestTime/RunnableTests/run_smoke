@@ -1,0 +1,3 @@
+<?php
+require_once "RunnableTest.php";
+RunnableTest::runSmoke();
